@@ -1,0 +1,13 @@
+2023-11-15T14:01:21+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in /Applications/XAMPP/xamppfiles/htdocs/onlinestore/wp-content/themes/woodmart/inc/integrations/woocommerce/modules/compare.php:400
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/onlinestore/wp-content/themes/woodmart/inc/integrations/woocommerce/modules/compare.php(520): woodmart_get_compare_fields()
+#1 /Applications/XAMPP/xamppfiles/htdocs/onlinestore/wp-content/themes/woodmart/inc/integrations/woocommerce/modules/compare.php(334): woodmart_get_compared_products_data()
+#2 /Applications/XAMPP/xamppfiles/htdocs/onlinestore/wp-content/themes/woodmart/inc/integrations/woocommerce/modules/compare.php(171): woodmart_get_compared_products_table()
+#3 /Applications/XAMPP/xamppfiles/htdocs/onlinestore/wp-content/themes/woodmart/inc/integrations/woocommerce/modules/compare.php(58): woodmart_compare_json_response()
+#4 /Applications/XAMPP/xamppfiles/htdocs/onlinestore/wp-includes/class-wp-hook.php(324): woodmart_add_to_compare('')
+#5 /Applications/XAMPP/xamppfiles/htdocs/onlinestore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/onlinestore/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/onlinestore/wp-admin/admin-ajax.php(188): do_action('wp_ajax_woodmar...')
+#8 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/onlinestore/wp-content/themes/woodmart/inc/integrations/woocommerce/modules/compare.php on line 400
+
